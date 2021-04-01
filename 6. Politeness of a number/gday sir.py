@@ -34,7 +34,7 @@ class politeNumbers():
                 tmp = tmp + str(y) + " + "
             tmp = tmp[:len(tmp)-2]
             print(("{Number} = "+tmp).format(Number=self.number))
-        print("Hence answer is {Number}".format(Number=self.number))
+        print("Hence answer is {Number}".format(Number=len(self.politenessArray)))
 
     def add(self, array, index):
         if index < len(self.numsArray)-1:
